@@ -6,10 +6,7 @@ using UnityEngine.SceneManagement;
 using Valve.VR.InteractionSystem;
 
 public class VehicleController : MonoBehaviour
-{
-    public float maxSteeringAngle = 30f; // Максимальный угол поворота колес
-    public float maxMotorTorque = 1500f; // Максимальный крутящий момент
-    public float maxBrakeTorque = 3000f; // Максимальная сила торможения
+{
     public WheelCollider[] wheelColliders; // Коллайдеры колес
     public GameObject[] visualWheels;
     public CircularDrive SteeringWheel;
